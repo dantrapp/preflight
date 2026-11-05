@@ -1,0 +1,482 @@
+[
+ {
+  "id": 65,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/webhook"
+ },
+ {
+  "id": 0,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/users/{id | userPrincipalName}/getMemberGroups"
+ },
+ {
+  "id": 43,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/telephony-providers/{customTelephonyProviderId}/test"
+ },
+ {
+  "id": 31,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/apps/{appId}/credentials/secrets"
+ },
+ {
+  "id": 79,
+  "vendor": "slack",
+  "method": "GET",
+  "path": "/team.integrationLogs"
+ },
+ {
+  "id": 62,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/jql/pdcleaner"
+ },
+ {
+  "id": 28,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/policies/simulate"
+ },
+ {
+  "id": 38,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/authorizationServers/{authServerId}/credentials/keys"
+ },
+ {
+  "id": 16,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/users/{usersId}/getPasswordSingleSignOnCredentials"
+ },
+ {
+  "id": 48,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/directories/{appInstanceId}/invoke-remote-script"
+ },
+ {
+  "id": 24,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/servicePrincipals/{id}/createPasswordSingleSignOnCredentials"
+ },
+ {
+  "id": 60,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/comment/list"
+ },
+ {
+  "id": 32,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/apps/{appId}/credentials/secrets/{secretId}"
+ },
+ {
+  "id": 63,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/uiModifications"
+ },
+ {
+  "id": 74,
+  "vendor": "slack",
+  "method": "GET",
+  "path": "/rtm.connect"
+ },
+ {
+  "id": 39,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/apps/{appId}/credentials/keys"
+ },
+ {
+  "id": 20,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/domains/{id}/verify"
+ },
+ {
+  "id": 72,
+  "vendor": "slack",
+  "method": "POST",
+  "path": "/chat.postMessage"
+ },
+ {
+  "id": 10,
+  "vendor": "graph",
+  "method": "GET",
+  "path": "/directory/deviceLocalCredentials/{deviceId}?$select=credentials"
+ },
+ {
+  "id": 13,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/deviceManagement/comanagedDevices/{managedDeviceId}/rotateLocalAdminPassword"
+ },
+ {
+  "id": 29,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/users/{userId}/factors/{factorId}/verify"
+ },
+ {
+  "id": 21,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/drives/{driveId}/items/{itemId}/checkout"
+ },
+ {
+  "id": 15,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/servicePrincipals/{id}/getPasswordSingleSignOnCredentials"
+ },
+ {
+  "id": 33,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/idps/{idpId}/users/{userId}/credentials/tokens"
+ },
+ {
+  "id": 49,
+  "vendor": "google",
+  "method": "POST",
+  "path": "/admin/directory/v1/users/watch"
+ },
+ {
+  "id": 1,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/groups/{id}/getMemberGroups"
+ },
+ {
+  "id": 42,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/telephony-providers"
+ },
+ {
+  "id": 45,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/eventHooks/{eventHookId}/lifecycle/verify"
+ },
+ {
+  "id": 22,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/drives/{driveId}/items/{itemId}/checkin"
+ },
+ {
+  "id": 17,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/groups/{groupsId}/getPasswordSingleSignOnCredentials"
+ },
+ {
+  "id": 47,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/domains/{domainId}/verify"
+ },
+ {
+  "id": 23,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/places/{placesId}/checkIns"
+ },
+ {
+  "id": 73,
+  "vendor": "slack",
+  "method": "POST",
+  "path": "/admin.users.session.reset"
+ },
+ {
+  "id": 76,
+  "vendor": "slack",
+  "method": "GET",
+  "path": "/users.identity"
+ },
+ {
+  "id": 67,
+  "vendor": "jira",
+  "method": "GET",
+  "path": "/rest/api/3/auditing/record"
+ },
+ {
+  "id": 44,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/email-servers/{emailServerId}/test"
+ },
+ {
+  "id": 78,
+  "vendor": "slack",
+  "method": "GET",
+  "path": "/team.billableInfo"
+ },
+ {
+  "id": 77,
+  "vendor": "slack",
+  "method": "GET",
+  "path": "/team.accessLogs"
+ },
+ {
+  "id": 56,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/search/jql"
+ },
+ {
+  "id": 34,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/integrations/api/v1/api-services/{apiServiceId}/credentials/secrets"
+ },
+ {
+  "id": 75,
+  "vendor": "slack",
+  "method": "GET",
+  "path": "/migration.exchange"
+ },
+ {
+  "id": 26,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/brands/{brandId}/templates/email/{templateName}/test"
+ },
+ {
+  "id": 18,
+  "vendor": "graph",
+  "method": "GET",
+  "path": "/users/{user-id}/licenseDetails/getTeamsLicensingDetails"
+ },
+ {
+  "id": 70,
+  "vendor": "slack",
+  "method": "POST",
+  "path": "/views.publish"
+ },
+ {
+  "id": 61,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/jql/match"
+ },
+ {
+  "id": 2,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/devices/{id}/getMemberGroups"
+ },
+ {
+  "id": 66,
+  "vendor": "jira",
+  "method": "GET",
+  "path": "/rest/api/3/mypreferences"
+ },
+ {
+  "id": 51,
+  "vendor": "google",
+  "method": "POST",
+  "path": "/admin/directory_v1/channels/stop"
+ },
+ {
+  "id": 25,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/servicePrincipals/{id}/deletePasswordSingleSignOnCredentials"
+ },
+ {
+  "id": 58,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/expression/eval"
+ },
+ {
+  "id": 57,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/issue/bulkfetch"
+ },
+ {
+  "id": 59,
+  "vendor": "jira",
+  "method": "POST",
+  "path": "/rest/api/3/expression/evaluate"
+ },
+ {
+  "id": 37,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/users/{userId}/clients/{clientId}/tokens"
+ },
+ {
+  "id": 54,
+  "vendor": "google",
+  "method": "GET",
+  "path": "/admin/directory/v1/users/{userKey}/asps"
+ },
+ {
+  "id": 40,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/apps/{appId}/credentials/jwks"
+ },
+ {
+  "id": 14,
+  "vendor": "graph",
+  "method": "GET",
+  "path": "/applications/{id}/federatedIdentityCredentials"
+ },
+ {
+  "id": 71,
+  "vendor": "slack",
+  "method": "POST",
+  "path": "/auth.test"
+ },
+ {
+  "id": 36,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/apps/{appId}/tokens"
+ },
+ {
+  "id": 52,
+  "vendor": "google",
+  "method": "GET",
+  "path": "/admin/directory/v1/users/{userKey}/verificationCodes"
+ },
+ {
+  "id": 3,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/directoryObjects/{id}/getMemberGroups"
+ },
+ {
+  "id": 69,
+  "vendor": "slack",
+  "method": "GET",
+  "path": "/files.remote.share"
+ },
+ {
+  "id": 35,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/api-tokens"
+ },
+ {
+  "id": 5,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/users/{id | userPrincipalName}/checkMemberGroups"
+ },
+ {
+  "id": 30,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/org/privacy/aerial"
+ },
+ {
+  "id": 8,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/me/calendar/getSchedule"
+ },
+ {
+  "id": 53,
+  "vendor": "google",
+  "method": "POST",
+  "path": "/admin/directory/v1/users/{userKey}/verificationCodes/generate"
+ },
+ {
+  "id": 55,
+  "vendor": "google",
+  "method": "GET",
+  "path": "/admin/directory/v1/users/{userKey}/tokens"
+ },
+ {
+  "id": 11,
+  "vendor": "graph",
+  "method": "GET",
+  "path": "/informationProtection/bitlocker/recoveryKeys/{bitlockeryRecoveryKeyId}?$select=key"
+ },
+ {
+  "id": 4,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/me/checkMemberGroups"
+ },
+ {
+  "id": 27,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/directories/{appInstanceId}/groups/{groupId}/query"
+ },
+ {
+  "id": 64,
+  "vendor": "jira",
+  "method": "PUT",
+  "path": "/rest/api/3/issues/archive/export"
+ },
+ {
+  "id": 7,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/groups/{id}/checkMemberObjects"
+ },
+ {
+  "id": 46,
+  "vendor": "okta",
+  "method": "POST",
+  "path": "/api/v1/ssf/stream/verification"
+ },
+ {
+  "id": 12,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/deviceManagement/managedDevices/{managedDeviceId}/rotateLocalAdminPassword"
+ },
+ {
+  "id": 68,
+  "vendor": "jira",
+  "method": "GET",
+  "path": "/rest/api/3/application-properties"
+ },
+ {
+  "id": 9,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/users/{id | userPrincipalName}/revokeSignInSessions"
+ },
+ {
+  "id": 6,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/servicePrincipals/{id}/getMemberObjects"
+ },
+ {
+  "id": 50,
+  "vendor": "google",
+  "method": "POST",
+  "path": "/admin/directory/v1/users/{userKey}/aliases/watch"
+ },
+ {
+  "id": 19,
+  "vendor": "graph",
+  "method": "POST",
+  "path": "/servicePrincipals/{id}/synchronization/jobs/{id}/validateCredentials"
+ },
+ {
+  "id": 41,
+  "vendor": "okta",
+  "method": "GET",
+  "path": "/api/v1/org/factors/yubikey_token/tokens"
+ }
+]

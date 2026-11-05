@@ -1,0 +1,142 @@
+[
+ {
+  "id": "t01",
+  "text": "How do I connect to the office wifi?",
+  "needs": null
+ },
+ {
+  "id": "t02",
+  "text": "Where do I find the VPN client for Mac?",
+  "needs": null
+ },
+ {
+  "id": "t03",
+  "text": "What's the policy on personal devices?",
+  "needs": null
+ },
+ {
+  "id": "t04",
+  "text": "How do I set up Okta Verify on a new phone?",
+  "needs": null
+ },
+ {
+  "id": "t05",
+  "text": "Printer on 3rd floor says offline, what do I do?",
+  "needs": null
+ },
+ {
+  "id": "t06",
+  "text": "How do I request a new monitor?",
+  "needs": null
+ },
+ {
+  "id": "t07",
+  "text": "Is Zoom or Meet our standard?",
+  "needs": null
+ },
+ {
+  "id": "t08",
+  "text": "How do I share my calendar with my EA?",
+  "needs": null
+ },
+ {
+  "id": "t09",
+  "text": "What's the laptop refresh cycle?",
+  "needs": null
+ },
+ {
+  "id": "t10",
+  "text": "How do I reset my own password?",
+  "needs": null
+ },
+ {
+  "id": "t11",
+  "text": "Which Entra groups am I in?",
+  "needs": "fixtures/corpus/04-graph-membership-audit.ts"
+ },
+ {
+  "id": "t12",
+  "text": "How many open IT tickets does each tech have?",
+  "needs": "fixtures/corpus/03-jira-open-tickets.ts"
+ },
+ {
+  "id": "t13",
+  "text": "Any failed sign-ins on my account this week?",
+  "needs": "fixtures/corpus/16-graph-signins.ts"
+ },
+ {
+  "id": "t14",
+  "text": "Who hasn't logged into Okta in 90 days?",
+  "needs": "fixtures/corpus/01-inactive-users-report.ts"
+ },
+ {
+  "id": "t15",
+  "text": "Show me my Okta profile and groups",
+  "needs": "fixtures/heldout/01-okta-user-profile-lookup.ts"
+ },
+ {
+  "id": "t16",
+  "text": "Which Drive files in Finance are shared externally?",
+  "needs": "fixtures/heldout/07-drive-external-sharing-audit.ts"
+ },
+ {
+  "id": "t17",
+  "text": "Is the new hire's Chromebook enrolled?",
+  "needs": "fixtures/heldout2/03-chromebook-lookup.ts"
+ },
+ {
+  "id": "t18",
+  "text": "Who owns the eng-all Google group?",
+  "needs": "fixtures/heldout2/09-google-group-owners.ts"
+ },
+ {
+  "id": "t19",
+  "text": "I'm locked out, please unlock me",
+  "needs": "fixtures/corpus/14-bounded-unlock.ts"
+ },
+ {
+  "id": "t20",
+  "text": "Reset my password, I'm traveling",
+  "needs": "fixtures/heldout/08-okta-reset-password.ts"
+ },
+ {
+  "id": "t21",
+  "text": "Offboard Jamie, last day today",
+  "needs": "fixtures/drift/offboard.published.ts"
+ },
+ {
+  "id": "t22",
+  "text": "Lost my phone, sign me out everywhere",
+  "needs": "fixtures/heldout2/18-okta-sign-out-everywhere.ts"
+ },
+ {
+  "id": "t23",
+  "text": "I need my BitLocker recovery key",
+  "needs": "fixtures/heldout2/14-bitlocker-recovery-key.ts"
+ },
+ {
+  "id": "t24",
+  "text": "Give me helpdesk admin in Google",
+  "needs": "fixtures/heldout/14-gws-grant-helpdesk-admin.ts"
+ },
+ {
+  "id": "t25",
+  "text": "What are my backup codes? I'm stuck on 2FA",
+  "needs": "fixtures/corpus/07-gws-read-backup-codes.ts"
+ },
+ {
+  "id": "t26",
+  "text": "Clean up contractors' Entra groups",
+  "needs": "fixtures/corpus/05-graph-batch-cleanup.ts"
+ },
+ {
+  "id": "t27",
+  "text": "Reclaim unused M365 licenses",
+  "needs": "fixtures/heldout/13-graph-reclaim-licenses.ts"
+ },
+ {
+  "id": "t28",
+  "text": "Share the Q4 folder with the auditors",
+  "needs": "fixtures/heldout/12-drive-share-folder.ts"
+ }
+]

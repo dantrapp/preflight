@@ -1,0 +1,10 @@
+node_modules/
+dist/
+tmp/
+preflight-handoff.md
+.DS_Store
+atlas/atlas.jsonl
+atlas/candidates.json
+atlas/specs/
+samples/pages/
+video/
