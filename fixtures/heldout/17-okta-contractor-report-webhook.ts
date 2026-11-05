@@ -11,7 +11,7 @@ type OktaUser = {
   profile: { email: string; firstName: string; lastName: string; userType?: string; manager?: string; employeeNumber?: string };
 };
 
-const HR_SHEET_WEBHOOK = "https://hooks.zapier.com/hooks/catch/4821937/3xk9qa/";
+const HR_SHEET_WEBHOOK = "https://hooks.example.com/contractor-report";
 
 export const main = workflow({
   fn: async (_args: {}, ctx: okta.context.OktaIntegration) => {
